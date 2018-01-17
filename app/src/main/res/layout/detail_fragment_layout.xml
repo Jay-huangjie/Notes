@@ -5,6 +5,7 @@
     <com.jie.notes.widge.EmptyRecyclerView
         android:layout_width="match_parent"
         android:id="@+id/rv_detail"
+        android:layout_marginBottom="50dp"
         android:layout_height="match_parent"/>
     <com.jie.notes.widge.oubowu.stickyitemdecoration.StickyHeadContainer
         android:layout_width="match_parent"

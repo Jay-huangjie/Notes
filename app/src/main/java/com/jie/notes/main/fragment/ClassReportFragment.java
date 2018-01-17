@@ -255,7 +255,7 @@ public class ClassReportFragment extends BaseFragment {
         mChart.setRotationAngle(fromangle);
         ObjectAnimator spinAnimator = ObjectAnimator.ofFloat(mChart, "rotationAngle", fromangle,
                 toangle);
-        spinAnimator.setDuration(1000);
+        spinAnimator.setDuration(1500);
         spinAnimator.setInterpolator(Easing.getEasingFunctionFromOption(Easing.EasingOption.EaseInOutQuad));
 
         spinAnimator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
