@@ -5,9 +5,9 @@
 ##### 首页:
 ![](http://p2p0lrpx1.bkt.clouddn.com/main.gif-gif)
 ##### 图表:
-![类别报表](http://p2p0lrpx1.bkt.clouddn.com/class.gif-gif "类别报表")
+![](http://p2p0lrpx1.bkt.clouddn.com/class.gif-gif)
 ##### 记一笔页面:
-![记一笔](http://p2p0lrpx1.bkt.clouddn.com/take.gif-gif "记一笔")
+![](http://p2p0lrpx1.bkt.clouddn.com/take.gif-gif)
 
 ## Points
 记账本是纯单机工具类应用，不存在网络请求
