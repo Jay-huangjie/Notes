@@ -1,4 +1,4 @@
-##记账本
+## 记账本
 记账本是一款仿制支付宝记账本模块开发的项目，采用 greenrobot团队的全新数据库框架[objectbox-java](https://github.com/objectbox/objectbox-java)开发完成。
 
 ## Project screenshot
