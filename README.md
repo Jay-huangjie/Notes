@@ -5,7 +5,7 @@
 ##### 首页:
 ![](http://p2p0lrpx1.bkt.clouddn.com/main.gif-gif)
 ##### 图表:
-![](http://p2p0lrpx1.bkt.clouddn.com/class.gif-gif)
+![](http://p2p0lrpx1.bkt.clouddn.com/class.gif-db)
 ##### 记一笔页面:
 ![](http://p2p0lrpx1.bkt.clouddn.com/take.gif-gif)
 
