@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_F0EFF5"
+    android:orientation="horizontal">
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:rowCount="4"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="6dp"
+        android:columnCount="3"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/row_00"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="@drawable/key_item_background"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/num_txt_size" />
+
+        <Button
+            android:id="@+id/row_01"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:background="@drawable/key_item_background"
+            android:gravity="center"
+            android:text="2"
+            android:textColor="@color/black"
+            android:textSize="@dimen/num_txt_size" />
+
+        <Button
+            android:id="@+id/row_02"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="@drawable/key_item_background"
+            android:gravity="center"
+            android:text="3"
+            android:textColor="@color/black"
+            android:textSize="@dimen/num_txt_size" />
+
+        <Button
+            android:id="@+id/row_10"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="@drawable/key_item_background"
+            android:gravity="center"
+            android:text="4"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/num_txt_size" />
+
+        <Button
+            android:id="@+id/row_11"
+            style="?android:attr/borderlessButtonStyle"
+       android:layout_margin="6dp"
+            android:background="@drawable/key_item_background"
+            android:gravity="center"
+            android:text="5"
+            android:textColor="@color/black"
+            android:textSize="@dimen/num_txt_size" />
+
+        <Button
+            android:id="@+id/row_12"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/key_item_background"
+            android:gravity="center"
+            android:text="6"
+            android:textColor="@color/black"
+            android:textSize="@dimen/num_txt_size" />
+
+        <Button
+            android:id="@+id/row_20"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="@drawable/key_item_background"
+            android:text="7"
+            android:textColor="@color/black"
+            android:textSize="@dimen/num_txt_size" />
+
+        <Button
+            android:id="@+id/row_21"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:background="@drawable/key_item_background"
+            android:gravity="center"
+            android:text="8"
+            android:textColor="@color/black"
+            android:textSize="@dimen/num_txt_size" />
+
+        <Button
+            android:id="@+id/row_22"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="@drawable/key_item_background"
+            android:gravity="center"
+            android:text="9"
+            android:textColor="@color/black"
+            android:textSize="@dimen/num_txt_size" />
+
+        <Button
+            android:id="@+id/row_30"
+            android:layout_marginTop="6dp"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="@drawable/key_item_background"
+            android:gravity="center"
+            android:text="."
+            android:textColor="@color/black"
+            android:textSize="@dimen/num_txt_size" />
+
+        <Button
+            android:id="@+id/row_31"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="@drawable/key_item_background"
+            android:layout_marginTop="6dp"
+            android:text="0"
+            android:layout_columnSpan="2"
+            android:layout_rowSpan="1"
+            android:layout_marginLeft="6dp"
+            android:layout_gravity="fill_horizontal"
+            android:textColor="@color/black"
+            android:textSize="@dimen/num_txt_size" />
+    </GridLayout>
+    <!--<TableLayout-->
+        <!--android:layout_width="0dp"-->
+        <!--android:visibility="gone"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_marginBottom="2dp"-->
+        <!--android:layout_marginLeft="5dp"-->
+        <!--android:layout_marginRight="3dp"-->
+        <!--android:layout_weight="3"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<TableRow-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<Button-->
+                <!--android:id="@+id/row_00"-->
+                <!--style="?android:attr/borderlessButtonStyle"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="48dp"-->
+                <!--android:layout_marginLeft="6dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@drawable/key_item_background"-->
+                <!--android:gravity="center"-->
+                <!--android:text="1"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:textSize="@dimen/num_txt_size" />-->
+
+            <!--<Button-->
+                <!--android:id="@+id/row_01"-->
+                <!--style="?android:attr/borderlessButtonStyle"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="48dp"-->
+                <!--android:layout_marginLeft="6dp"-->
+                <!--android:layout_marginRight="6dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@drawable/key_item_background"-->
+                <!--android:gravity="center"-->
+                <!--android:text="2"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:textSize="@dimen/num_txt_size" />-->
+
+            <!--<Button-->
+                <!--android:id="@+id/row_02"-->
+                <!--style="?android:attr/borderlessButtonStyle"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="48dp"-->
+                <!--android:layout_marginRight="7dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@drawable/key_item_background"-->
+                <!--android:gravity="center"-->
+                <!--android:text="3"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:textSize="@dimen/num_txt_size" />-->
+        <!--</TableRow>-->
+
+        <!--<TableRow-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center">-->
+
+            <!--<Button-->
+                <!--android:id="@+id/row_10"-->
+                <!--style="?android:attr/borderlessButtonStyle"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="48dp"-->
+                <!--android:layout_marginLeft="6dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@drawable/key_item_background"-->
+                <!--android:gravity="center"-->
+                <!--android:text="4"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:textSize="@dimen/num_txt_size" />-->
+
+            <!--<Button-->
+                <!--android:id="@+id/row_11"-->
+                <!--style="?android:attr/borderlessButtonStyle"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="48dp"-->
+                <!--android:layout_marginLeft="6dp"-->
+                <!--android:layout_marginRight="6dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@drawable/key_item_background"-->
+                <!--android:gravity="center"-->
+                <!--android:text="5"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:textSize="@dimen/num_txt_size" />-->
+
+            <!--<Button-->
+                <!--android:id="@+id/row_12"-->
+                <!--style="?android:attr/borderlessButtonStyle"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="48dp"-->
+                <!--android:layout_marginRight="7dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@drawable/key_item_background"-->
+                <!--android:gravity="center"-->
+                <!--android:text="6"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:textSize="@dimen/num_txt_size" />-->
+        <!--</TableRow>-->
+
+        <!--<TableRow-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center">-->
+
+            <!--<Button-->
+                <!--android:id="@+id/row_20"-->
+                <!--style="?android:attr/borderlessButtonStyle"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="48dp"-->
+                <!--android:layout_marginLeft="6dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@drawable/key_item_background"-->
+                <!--android:gravity="center"-->
+                <!--android:text="7"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:textSize="@dimen/num_txt_size" />-->
+
+            <!--<Button-->
+                <!--android:id="@+id/row_21"-->
+                <!--style="?android:attr/borderlessButtonStyle"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="48dp"-->
+                <!--android:layout_marginLeft="6dp"-->
+                <!--android:layout_marginRight="6dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@drawable/key_item_background"-->
+                <!--android:gravity="center"-->
+                <!--android:text="8"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:textSize="@dimen/num_txt_size" />-->
+
+            <!--<Button-->
+                <!--android:id="@+id/row_22"-->
+                <!--style="?android:attr/borderlessButtonStyle"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="48dp"-->
+                <!--android:layout_marginRight="7dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@drawable/key_item_background"-->
+                <!--android:gravity="center"-->
+                <!--android:text="9"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:textSize="@dimen/num_txt_size" />-->
+        <!--</TableRow>-->
+
+        <!--<TableRow-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_marginLeft="6dp"-->
+            <!--android:layout_marginRight="7dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center">-->
+
+            <!--<Button-->
+                <!--android:id="@+id/row_30"-->
+                <!--style="?android:attr/borderlessButtonStyle"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="48dp"-->
+                <!--android:layout_marginRight="3dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@drawable/key_item_background"-->
+                <!--android:gravity="center"-->
+                <!--android:text="."-->
+                <!--android:textColor="@color/black"-->
+                <!--android:textSize="@dimen/num_txt_size" />-->
+
+            <!--<Button-->
+                <!--android:id="@+id/row_31"-->
+                <!--style="?android:attr/borderlessButtonStyle"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="48dp"-->
+                <!--android:layout_marginLeft="3dp"-->
+                <!--android:layout_weight="2"-->
+                <!--android:background="@drawable/key_item_background"-->
+                <!--android:gravity="center"-->
+                <!--android:text="0"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:textSize="@dimen/num_txt_size" />-->
+        <!--</TableRow>-->
+    <!--</TableLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="6dp"
+        android:layout_marginRight="6dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/btn_clear"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/key_item_background_del"
+            android:src="@drawable/btn_del"
+            android:text="清除"
+            android:textColor="@color/black"
+            android:textSize="@dimen/num_txt_size" />
+
+        <Button
+            android:id="@+id/btn_confirm"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/key_item_background_confirm"
+            android:text="完成"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/num_txt_size" />
+
+    </LinearLayout>
+</LinearLayout>

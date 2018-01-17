@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.jie.notes.widge.EmptyRecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/rv_detail"
+        android:layout_height="match_parent"/>
+    <com.jie.notes.widge.oubowu.stickyitemdecoration.StickyHeadContainer
+        android:layout_width="match_parent"
+        android:id="@+id/shc"
+        android:layout_height="wrap_content">
+      <include layout="@layout/item_header"/>
+    </com.jie.notes.widge.oubowu.stickyitemdecoration.StickyHeadContainer>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="暂无数据"
+        android:id="@+id/tv_empty"
+        android:gravity="center"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/tv_star_notes"
+        android:layout_gravity="bottom"
+        android:background="@drawable/white_gray"
+        android:textColor="@color/color_399cff"
+        android:text="记一笔"
+        android:textSize="18sp"
+        android:gravity="center"
+        />
+</FrameLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_e4ebe8"
+    android:orientation="vertical">
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pie_charts"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp" />
+
+    <View
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="center"
+        android:alpha="0"
+        android:id="@+id/view_triangle"
+        android:background="@drawable/triangle" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:id="@+id/ll_bottom_detail"
+        android:alpha="0"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp">
+
+            <com.jie.notes.widge.IconImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:id="@+id/class_report_icon"
+                android:layout_centerVertical="true" />
+
+            <TextView
+                android:id="@+id/tv_class_report_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/class_report_icon"
+                android:layout_marginLeft="8dp"
+                android:textColor="@color/color_666666"
+                android:textSize="16sp"
+                tool:text="购物" />
+
+            <TextView
+                android:id="@+id/tv_class_report_persent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/tv_class_report_name"
+                android:textColor="@color/color_666666"
+                android:textSize="16sp"
+                tool:text="0.0%" />
+
+            <ImageView
+                android:id="@+id/iv_class_report_back"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:rotation="180"
+                app:srcCompat="@drawable/back_icon" />
+
+            <TextView
+                android:id="@+id/tv_class_report_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="2dp"
+                android:layout_toLeftOf="@id/iv_class_report_back"
+                android:textColor="@color/color_666666"
+                android:textSize="16sp"
+                tool:text="0.0%" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/color_e4ebe8" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="12dp"
+            android:id="@+id/tv_class_report_rankname"
+            tool:text="购物消费排行榜" />
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recycler_ranking"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            />
+    </LinearLayout>
+</LinearLayout>

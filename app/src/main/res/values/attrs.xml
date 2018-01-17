@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TopBar">
+        <attr name="t_LayoutId" format="reference"/>
+        <attr name="t_title" format="string"/>
+        <attr name="t_backImage" format="reference"/>
+        <attr name="t_rightImage" format="reference"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">记账本</string>
+    <string name="app_noInterface">无接口，功能不开发</string>
+</resources>

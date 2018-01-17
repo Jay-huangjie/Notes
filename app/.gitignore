@@ -1,0 +1,15 @@
+.gradle/
+.idea/
+Notes.iml
+app/build/
+app/release/
+build/
+local.properties
+app/app.iml
+app/app-debug.apk
+gen/
+/gradle/
+*.iml
+/app/app.iml
+/gradle/wrapper/
+/gradle/wrapper/gradle-wrapper.properties
