@@ -1,13 +1,16 @@
-##记账本
+## 记账本
 记账本是一款仿制支付宝记账本模块开发的项目，采用 greenrobot团队的全新数据库框架[objectbox-java](https://github.com/objectbox/objectbox-java)开发完成。
+
+关于objectbox数据库的使用，请看: [objectBox数据库使用教程
+](http://www.huangjie.name/objectBox%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B-objectbox-java.html)
 
 ## Project screenshot
 ##### 首页:
 ![](http://p2p0lrpx1.bkt.clouddn.com/main.gif-gif)
 ##### 图表:
-![类别报表](http://p2p0lrpx1.bkt.clouddn.com/class.gif-gif "类别报表")
+![](http://p2p0lrpx1.bkt.clouddn.com/class.gif-db)
 ##### 记一笔页面:
-![记一笔](http://p2p0lrpx1.bkt.clouddn.com/take.gif-gif "记一笔")
+![](http://p2p0lrpx1.bkt.clouddn.com/take.gif-gif)
 
 ## Points
 记账本是纯单机工具类应用，不存在网络请求
