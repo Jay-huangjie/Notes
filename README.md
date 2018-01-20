@@ -35,6 +35,11 @@
 * [ ] 记一笔页面的日期选择功能
 * [ ] 进行一次完善的单元测试与压力测试
 
+## Download
+![](gif/notesdownload.png)
+或直接通过链接下载:
+[notes.apk](http://p2p0lrpx1.bkt.clouddn.com/notes.apk)
+
 ## Update log
 ```
 2018/1/17
