@@ -11,8 +11,6 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Toast;
 
-import com.jie.notes.util.StatusBarUtil;
-
 /**
  * Created by huangjie on 2017/11/3.
  * 类名：
@@ -55,6 +53,7 @@ public abstract class BaseActivity extends AppCompatActivity {
 
     protected abstract void initEvent();
 
+    @SuppressWarnings({"unchecked"})
     public <V extends View> V getViewID(int id){
         V view = (V) mView.get(id);
         if (view==null){

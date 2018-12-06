@@ -133,7 +133,7 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <com.jie.notes.widge.KeyBoard.CustomKeyBoard
+        <com.jie.notes.widge.keyBoard.CustomKeyBoard
             android:layout_width="match_parent"
             android:layout_gravity="center"
             android:id="@+id/keyboard"

@@ -1,4 +1,4 @@
-package com.jie.notes.widge.KeyBoard;
+package com.jie.notes.widge.keyBoard;
 
 import android.content.Context;
 import android.support.annotation.Nullable;

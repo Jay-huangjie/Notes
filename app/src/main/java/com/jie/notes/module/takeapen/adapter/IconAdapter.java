@@ -9,7 +9,7 @@ import android.widget.TextView;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
 import com.jie.notes.R;
-import com.jie.notes.module.takeapen.View.OnIconClickListence;
+import com.jie.notes.module.takeapen.view.OnIconClickListence;
 import com.jie.notes.module.takeapen.manager.SelectIconManager;
 import com.jie.notes.module.takeapen.model.Icon;
 import com.jie.notes.widge.IconImageView;

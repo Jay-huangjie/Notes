@@ -1,5 +1,6 @@
 package com.jie.notes.main;
 
+import android.annotation.SuppressLint;
 import android.app.DatePickerDialog;
 import android.graphics.Color;
 import android.support.v4.app.FragmentManager;
@@ -74,6 +75,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener{
         StatusBarUtil.setColor(this,Color.parseColor("#263238"));
     }
 
+    @SuppressLint("CheckResult")
     @Override
     protected void initEvent() {
         initTitle();

@@ -1,4 +1,4 @@
-package com.jie.notes.main.Presenter;
+package com.jie.notes.main.presenter;
 
 import com.jie.notes.db.DBManager;
 import com.jie.notes.main.model.DetailEntity;

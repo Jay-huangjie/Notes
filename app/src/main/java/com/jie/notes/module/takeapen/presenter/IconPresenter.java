@@ -1,4 +1,4 @@
-package com.jie.notes.module.takeapen.Presenter;
+package com.jie.notes.module.takeapen.presenter;
 
 import com.jie.notes.db.DBManager;
 import com.jie.notes.module.takeapen.manager.SelectIconManager;

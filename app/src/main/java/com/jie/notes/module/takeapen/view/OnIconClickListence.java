@@ -1,4 +1,4 @@
-package com.jie.notes.module.takeapen.View;
+package com.jie.notes.module.takeapen.view;
 
 import com.jie.notes.module.takeapen.model.Icon;
 

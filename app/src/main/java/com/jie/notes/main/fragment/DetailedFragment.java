@@ -17,7 +17,7 @@ import com.jie.notes.main.adapter.DetailedAdapter;
 import com.jie.notes.main.model.DetailEntity;
 import com.jie.notes.main.model.TransmitEntity;
 import com.jie.notes.main.model.TimeEntity;
-import com.jie.notes.module.Details.DetailsActivity;
+import com.jie.notes.module.details.DetailsActivity;
 import com.jie.notes.module.takeapen.TakePenActivity;
 import com.jie.notes.util.DateUtil;
 import com.jie.notes.util.RxBus;

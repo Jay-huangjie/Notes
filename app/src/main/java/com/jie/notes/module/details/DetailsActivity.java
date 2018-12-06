@@ -1,4 +1,4 @@
-package com.jie.notes.module.Details;
+package com.jie.notes.module.details;
 
 import android.content.Intent;
 import android.graphics.Color;

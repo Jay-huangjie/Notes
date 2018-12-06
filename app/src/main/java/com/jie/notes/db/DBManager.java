@@ -76,7 +76,7 @@ public class DBManager {
 
     //-----------------超纯洁分割线-------------------------------------//
     //查询当月记录的所有日期  date:yyyy-mm
-    public static List<TimeEntity> getTimeEntityToMonth(String date) {
+    public static List getTimeEntityToMonth(String date) {
         return timeEntityBox.query().contains(TimeEntity_.date, date).build().find();
     }
 
@@ -102,7 +102,8 @@ public class DBManager {
                 .query()
                 .contains(DetailEntity_.date, date)
                 .build()
-                .sumDouble(DetailEntity_.money);
+                .property(DetailEntity_.money)
+                .sumDouble();
         return BaseUtil.DoubleFormat(result);
     }
 
@@ -115,7 +116,8 @@ public class DBManager {
                 .query()
                 .equal(DetailEntity_.date, date)
                 .build()
-                .sumDouble(DetailEntity_.money);
+                .property(DetailEntity_.money)
+                .sumDouble();
         return BaseUtil.DoubleFormat(result);
     }
 
@@ -126,7 +128,7 @@ public class DBManager {
         * 查询第一个对象，如果第一个对象没有值则证明该值在数据库中不存在,也可以使用count()>0方法判断是否有值
         * */
         TimeEntity entity = timeEntityBox.query().equal(TimeEntity_.date, date).build().findFirst();
-        return entity == null ? false : true;
+        return entity != null;
     }
 
     //获取当天的时间类操作对象
@@ -169,7 +171,8 @@ public class DBManager {
                     .contains(DetailEntity_.date,date)
                     .equal(DetailEntity_.name,name)
                     .build()
-                    .sumDouble(DetailEntity_.money);
+                    .property(DetailEntity_.money)
+                    .sumDouble();
         }
         return 0;
     }
@@ -257,6 +260,6 @@ public class DBManager {
      * @return 是否存在
      */
     public static boolean hasLove() {
-        return iconBox.query().equal(Icon_.iconType,1).build().count() > 0 ? true : false;
+        return iconBox.query().equal(Icon_.iconType, 1).build().count() > 0;
     }
 }
